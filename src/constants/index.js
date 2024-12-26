@@ -38,37 +38,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Automatic File Sorter",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A Streamlit-based app that organizes files in a specified folder into categorized subfolders (e.g., images, documents, videos) based on their file type. Simple and user-friendly, it’s perfect for decluttering directories with ease.",
+    technologies: ["Python", "Streamlit"],
   },
   {
-    title: "Task Management App",
+    title: "Zomato Restaurant Analysis",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An exploratory data analysis (EDA) on a Zomato restaurants dataset, focusing on the restaurant landscape in Kochi. It visualizes various aspects such as establishment types, ratings, cuisines, and customer votes.",
+    technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
   },
   {
-    title: "Portfolio Website",
+    title: "Netflix Dataset Analysis",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "SQL queries to analyze the Netflix dataset, uncovering insights like content trends, genre distributions, and top contributors. It serves as a learning resource and framework for exploring similar datasets effectively.",
+    technologies: ["SQL", "MySQL"],
   },
   {
-    title: "Blogging Platform",
+    title: "iPhone 15 Pro Website Clone",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A a clone of Apple's iPhone 15 Pro website, built with React.js and Tailwind CSS, featuring smooth GSAP animations and dynamic 3D model rendering using Three.js. It provides an immersive, responsive user experience similar to the official Apple site.",
+    technologies: ["HTML", "CSS", "React Js", "Tailwind CSS"]
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Palakkad, India ",
+  phoneNo: "8075057859",
+  email: "psreeram3015@proton.me",
 };
