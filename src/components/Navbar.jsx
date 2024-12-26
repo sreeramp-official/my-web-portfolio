@@ -30,7 +30,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                    href="https://github.com/sreeram3015"
+                    href="https://github.com/sreeramp-official"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Github Profile"
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                    href="https://www.instagram.com/sreeram-p"
+                    href="https://www.instagram.com/strangertomyheart"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram Profile"
