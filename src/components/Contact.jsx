@@ -42,7 +42,7 @@ const Contact = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1 }}
-                    className="my-4 flex items-center justify-center gap-2"
+                    className="my-4 flex items-center justify-center gap-2 text-stone-300 hover:text-stone-50 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)] transition-all"
                 >
                     <MdEmail />
                     <span>{CONTACT.email}</span>
