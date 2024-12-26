@@ -1,5 +1,5 @@
-import { PROJECTS } from "../constants"
-import { motion } from "framer-motion"
+import { PROJECTS } from "../constants";
+import { motion } from "framer-motion";
 
 const Projects = () => {
     return (
@@ -19,25 +19,30 @@ const Projects = () => {
                         initial={{ opacity: 0, y: 50 }}
                         transition={{ duration: 0.8 }}
                         key={index}
-                        className="w-full max-w-4xl p-6 rounded-lg bg-gradient-to-br from-gray-800 to-gray-900 shadow-lg border border-gray-700"
+                        className="w-full max-w-4xl p-6 rounded-lg bg-gradient-to-br from-gray-800 to-gray-900 shadow-lg border border-gray-700 cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[0_0_15px_2px_rgba(0,191,255,0.6)]"
                     >
-                        <h3 className="mb-4 text-2xl font-semibold text-white">{project.title}</h3>
-                        <p className="mb-6 text-stone-300">{project.description}</p>
-                        <div className="flex flex-wrap gap-3">
-                            {project.technologies.map((tech, index) => (
-                                <span
-                                    key={index}
-                                    className="rounded bg-stone-900 px-3 py-1 text-sm font-medium text-stone-300 transition-all duration-300 hover:scale-105 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
-                                >
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                            <h3 className="mb-4 text-2xl font-semibold text-white">
+                                {project.title}
+                            </h3>
+
+                            <p className="mb-6 text-stone-300">{project.description}</p>
+                            <div className="flex flex-wrap gap-3">
+                                {project.technologies.map((tech, index) => (
+                                    <span
+                                        key={index}
+                                        className="rounded bg-stone-900 px-3 py-1 text-sm font-medium text-stone-300 transition-all duration-300 hover:scale-105 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]"
+                                    >
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
+                        </a>
                     </motion.div>
                 ))}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Projects
+export default Projects;
