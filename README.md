@@ -16,7 +16,7 @@ Welcome to my personal portfolio! This project showcases my journey as a develop
 
 ## Live Demo
 
-Check out the live version of the portfolio [here](#). *(Replace # with your portfolio link)*
+Check out the live version of the portfolio [here](https://sreeramp.netlify.app/).
 
 ## Running Locally
 
