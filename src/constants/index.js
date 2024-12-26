@@ -19,24 +19,28 @@ export const PROJECTS = [
     description:
       "A Streamlit-based app that organizes files in a specified folder into categorized subfolders (e.g., images, documents, videos) based on their file type. Simple and user-friendly, it’s perfect for decluttering directories with ease.",
     technologies: ["Python", "Streamlit"],
+    github: "https://github.com/sreeramp-official/automatic-file-sorter"
   },
   {
     title: "Zomato Restaurant Analysis",
     description:
       "An exploratory data analysis (EDA) on a Zomato restaurants dataset, focusing on the restaurant landscape in Kochi. It visualizes various aspects such as establishment types, ratings, cuisines, and customer votes.",
     technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
+    github: "https://github.com/sreeramp-official/zomato-eda"
   },
   {
     title: "Netflix Dataset Analysis",
     description:
       "SQL queries to analyze the Netflix dataset, uncovering insights like content trends, genre distributions, and top contributors. It serves as a learning resource and framework for exploring similar datasets effectively.",
     technologies: ["SQL", "MySQL"],
+    github: "https://github.com/sreeramp-official/netflix-sql-analysis"
   },
   {
     title: "iPhone 15 Pro Website Clone",
     description:
       "A a clone of Apple's iPhone 15 Pro website, built with React.js and Tailwind CSS, featuring smooth GSAP animations and dynamic 3D model rendering using Three.js. It provides an immersive, responsive user experience similar to the official Apple site.",
-    technologies: ["HTML", "CSS", "React Js", "Tailwind CSS"]
+    technologies: ["HTML", "CSS", "React Js", "Tailwind CSS"],
+    github: "https://github.com/sreeramp-official/iPhone-15-Pro-Website"
   },
 ];
 
