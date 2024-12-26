@@ -46,9 +46,17 @@ const Hero = () => {
                             {HERO_CONTENT}
                         </motion.p>
 
-                        <motion.a variants={childVariants} href="/resume.pdf" target="_blank" rel="noopener noreferrer" download className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">
+                        <motion.a
+                            variants={childVariants}
+                            href="/resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download
+                            className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 shadow-md transition-all duration-300 hover:shadow-lg hover:shadow-stone-500/50 hover:scale-105"
+                        >
                             Download Resume
                         </motion.a>
+
                     </motion.div>
                 </div>
             </div>
