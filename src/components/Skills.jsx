@@ -51,10 +51,6 @@ const Skills = () => {
                     <b className="text-7xl text-blue-300 transition-all duration-300 hover:drop-shadow-[0_0_15px_rgba(210,180,140,0.8)] hover:scale-105">C</b>
                 </motion.div>
 
-                <motion.div initial="initial" animate="animate" variants={iconVariants(4)} className="p-4">
-                    <b className="text-7xl text-white transition-all duration-300 hover:drop-shadow-[0_0_15px_rgba(210,180,140,0.8)] hover:scale-105">C++</b>
-                </motion.div>
-
                 <motion.div initial="initial" animate="animate" variants={iconVariants(3.5)} className="p-4">
                     <TbSql className="text-7xl text-yellow-300 transition-all duration-300 hover:drop-shadow-[0_0_15px_rgba(210,180,140,0.8)] hover:scale-105" />
                 </motion.div>

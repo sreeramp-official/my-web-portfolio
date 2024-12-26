@@ -16,7 +16,7 @@ const Projects = () => {
                 {PROJECTS.map((project, index) => (
                     <motion.div
                         whileInView={{ opacity: 1, y: 0 }}
-                        initial={{ opacity: 0, y: 50 }}
+                        initial={{ opacity: 0, y: -20 }}
                         transition={{ duration: 0.8 }}
                         key={index}
                         className="w-full max-w-4xl p-6 rounded-lg bg-gradient-to-br from-gray-800 to-gray-900 shadow-lg border border-gray-700 cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_15px_2px_rgba(0,191,255,0.6)]"
