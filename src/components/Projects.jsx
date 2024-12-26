@@ -19,7 +19,7 @@ const Projects = () => {
                         initial={{ opacity: 0, y: 50 }}
                         transition={{ duration: 0.8 }}
                         key={index}
-                        className="w-full max-w-4xl p-6 rounded-lg bg-gradient-to-br from-gray-800 to-gray-900 shadow-lg border border-gray-700 cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[0_0_15px_2px_rgba(0,191,255,0.6)]"
+                        className="w-full max-w-4xl p-6 rounded-lg bg-gradient-to-br from-gray-800 to-gray-900 shadow-lg border border-gray-700 cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-[0_0_15px_2px_rgba(0,191,255,0.6)]"
                     >
                         <a href={project.github} target="_blank" rel="noopener noreferrer">
                             <h3 className="mb-4 text-2xl font-semibold text-white">
