@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp"
+import profilePic from "../assets/sp-logo.png"
 import { HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion"
 
@@ -31,7 +31,9 @@ const Hero = () => {
             <div className="flex flex-wrap lg:flex-row-reverse">
                 <div className="w-full lg:w-1/2">
                     <div className="flex justify-center lg:p-8">
-                        <motion.img src={profilePic} alt="Profile Picture" className="border border-stone-900 rounded-3xl" width={650} height={650} initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.5 }} />
+
+                        {/* Use className="border border-stone-900 rounded-3xl" in the below image tag if you ever decide to put a profile pic in there */}
+                        <motion.img src={profilePic} alt="Profile Picture" width={650} height={650} initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.5 }} />
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2">
